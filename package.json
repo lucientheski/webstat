@@ -1,0 +1,32 @@
+{
+  "name": "webstat",
+  "version": "1.0.0",
+  "description": "Zero-config system monitoring dashboard. htop, but in your browser.",
+  "main": "src/server.js",
+  "bin": {
+    "webstat": "bin/webstat.js"
+  },
+  "scripts": {
+    "start": "node bin/webstat.js",
+    "dev": "node bin/webstat.js --no-open"
+  },
+  "keywords": [
+    "system-monitor",
+    "dashboard",
+    "htop",
+    "cpu",
+    "memory",
+    "processes",
+    "web-ui",
+    "zero-config"
+  ],
+  "author": "Luci <luci@deleuzer.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucientheski/webstat"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
